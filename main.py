@@ -4,7 +4,7 @@ import threading
 
 def run_lavalink():
   os.system('python3 /home/runner/keep_alive.py')
-  
+
 threading.Thread(target=run_lavalink).start()
 time.sleep(3)
 
