@@ -3,6 +3,7 @@ import time
 from keep_alive import keep_alive
 keep_alive()
 
+os.system('git add .')
 count = 0
 while (count < 99999):
     count = count + 1
