@@ -11,7 +11,6 @@ while (count < 99999):
         with open('text.txt', 'a') as file:
             file.write(d)
         os.system('git add .')
-        
         os.system('git commit --date="' + d + '" -m "Initial Commit"')
     os.system('git push -u origin main')
     os.system('clear')
