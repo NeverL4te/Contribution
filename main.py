@@ -10,8 +10,8 @@ while (count < 99999):
         d = str(i) + ' day ago'
         with open('text.txt', 'a') as file:
             file.write(d)
-    
-        os.system('rm .git/gc.log')
+        os.system('git add .')
+        
         os.system('git commit --date="' + d + '" -m "Initial Commit"')
     os.system('git push -u origin main')
     os.system('clear')
