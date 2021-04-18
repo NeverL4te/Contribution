@@ -1,5 +1,5 @@
 import os
-i
+import time
 
 count = 0
 while (count < 99999):
