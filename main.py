@@ -1,6 +1,6 @@
 import os
 
-for i in range(1,365*5 + 1):
+for i in range(1,365*11 + 1):
     d = str(i) + ' day ago'
     with open('text.txt', 'a') as file:
         file.write(d)
