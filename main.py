@@ -1,6 +1,8 @@
 import os
 import time
 
+os.system('python3 /home/runner/keep_alive.py')
+
 count = 0
 while (count < 99999):
     count = count + 1
