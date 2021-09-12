@@ -14,4 +14,4 @@ while (count < 99999):
         os.system('git commit --date="' + d + '" -m "Initial Commit"')
     os.system('git push -u origin main')
     os.system('clear')
-    time.sleep(20)
+    time.sleep(15)
