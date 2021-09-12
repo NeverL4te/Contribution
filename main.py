@@ -9,5 +9,4 @@ while (count < 3):
             file.write(d)
         os.system('git add .')
         os.system('git commit --date="' + d + '" -m "Initial Commit"')
-
-os.system('git push -u origin main')
+        os.system('git push -u origin main')
