@@ -1,12 +1,6 @@
 import os
-import time
-import threading
-
-def run_lavalink():
-  os.system('python3 /home/runner/keep_alive.py')
-
-threading.Thread(target=run_lavalink).start()
-time.sleep(5)
+from keep_alive import keep_alive
+keep_alive()
 
 count = 0
 while (count < 99999):
