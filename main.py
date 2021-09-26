@@ -1,7 +1,4 @@
-import os
-import time
-from keep_alive import keep_alive
-keep_alive()
+import os import time from keep_alive import keep_alive keep_alive()
 
 count = 0
 while (count < 99999):
@@ -23,4 +20,4 @@ while (count < 99999):
             time.sleep(15)
         os.system('git gc --prune=now')
         os.system('rm text.txt')
-        ox.system('touch text.txt')
+        os.system('touch text.txt')
