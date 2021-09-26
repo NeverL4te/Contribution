@@ -1,4 +1,7 @@
-import os import time from keep_alive import keep_alive keep_alive()
+import os
+import time
+from keep_alive import keep_alive
+keep_alive()
 
 count = 0
 while (count < 99999):
