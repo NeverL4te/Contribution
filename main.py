@@ -2,7 +2,7 @@ import os
 import time
 
 count = 0
-while (count < 100):
+while (count < 99999):
     count = count + 1
     for i in range(1,365*1 + 1):
         d = str(i) + ' day ago'
