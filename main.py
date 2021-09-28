@@ -15,7 +15,7 @@ while (count < 99999):
         os.system('rm text.txt')
         os.system('touch text.txt')
         os.system('clear')
-
+        time.sleep(120)
     os.system('git repack')
     os.system('clear')
     time.sleep(180)
