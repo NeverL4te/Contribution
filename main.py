@@ -18,4 +18,4 @@ while (count < 99999):
 
     os.system('git repack')
     os.system('clear')
-    time.sleep(120)
+    time.sleep(180)
