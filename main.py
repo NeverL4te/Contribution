@@ -18,4 +18,4 @@ while (count < 99999):
         time.sleep(120)
     os.system('git prune; git repack -d')
     os.system('clear')
-    time.sleep(20)
+    time.sleep(120)
