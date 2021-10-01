@@ -1,7 +1,5 @@
 import os
 import time
-from keep_alive import keep_alive
-keep_alive()
 
 count = 0
 while (count < 99999):
@@ -17,7 +15,7 @@ while (count < 99999):
         os.system('rm text.txt')
         os.system('touch text.txt')
         os.system('clear')
-        time.sleep(80)
+        time.sleep(60)
     os.system('git prune; git repack -d')
     os.system('clear')
-    time.sleep(80)
+    time.sleep(60)
