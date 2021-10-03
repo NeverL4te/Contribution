@@ -16,6 +16,6 @@ while (count < 99999):
         os.system('touch text.txt')
         os.system('clear')
         time.sleep(30)
-    os.system('git gc; git prune; git repack -Ad')
+    os.system('git fsck; git gc --prune=now; git repack -Ad')
     os.system('clear')
     time.sleep(30)
