@@ -7,7 +7,7 @@ while (count < 99999):
     for k in range(20):
         for i in range(5):
             for j in range(1,365*1 + 1):
-                d = str(i) + ' day ago'
+                d = str(i) + ' i'
                 with open('text.txt', 'a') as file:
                     file.write(d)
                 os.system('git add .')
