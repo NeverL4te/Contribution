@@ -6,8 +6,8 @@ count = 0
 while (count < 99999):
     count = count + 1
     for k in range(20):
-        for i in range(5):
-            for j in range(1,365*1 + 1):
+        for j in range(5):
+            for i in range(1,365*1 + 1):
                 d = str(i) + ' day ago'
                 with open('text.txt', 'a') as file:
                     file.write(d)
